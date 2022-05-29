@@ -1,0 +1,31 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn-cart {
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 10px 25px;
+    margin-right: 50px;
+    float: right;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-cart:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.buy-btn {
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buy-btn:hover {
+    transform: scale(1.2, 1.2);
+}
