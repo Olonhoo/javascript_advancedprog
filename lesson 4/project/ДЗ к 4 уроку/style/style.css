@@ -1,0 +1,20 @@
+.transform {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #777777;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+    align-self: center;
+}
+
+.firstPart,
+.secondPart {
+    width: 470px;
+}
