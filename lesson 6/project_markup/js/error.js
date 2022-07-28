@@ -1,4 +1,4 @@
-Vue.component('errortrue', {
+Vue.component('checkerror', {
     props: ['error'],
     template: `
         <div v-if="error">

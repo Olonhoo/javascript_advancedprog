@@ -33,7 +33,8 @@
         </header>
         <main>
             <products :products="filtered" :img="imgProduct" @add-product="addProduct"></products>
-            <errors :error="error"></errors>
+            <checkerror :error="error">
+            </checkerror>
         </main>
     </div>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
@@ -44,6 +45,7 @@
     <script src="js/ProductComponent.js"></script>
     <script src="js/CartComponent.js"></script>
     <script src="js/filter.js"></script>
+    <script src="js/error.js"></script>
     <script src="js/main.js"></script>
 </body>
 
