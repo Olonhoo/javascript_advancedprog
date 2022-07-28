@@ -33,6 +33,7 @@
         </header>
         <main>
             <products :products="filtered" :img="imgProduct" @add-product="addProduct"></products>
+            <errors :error="error"></errors>
         </main>
     </div>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
